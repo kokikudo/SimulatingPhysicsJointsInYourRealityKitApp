@@ -4,6 +4,8 @@ Create realistic, connected motion using physics joints.
 
 ## Overview
 
+
+
 This app demonstrates geometric pins and physics joints, adding an element of interactivity
 to physics bodies in RealityKit scenes.
 
