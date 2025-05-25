@@ -12,3 +12,4 @@ For more information about the app and how it works, see
 
 [link-to-sample]: https://documentation.apple.com/documentation/realitykit/simulating-physics-joints-in-your-realitykit-app
 
+// githubで追加した
