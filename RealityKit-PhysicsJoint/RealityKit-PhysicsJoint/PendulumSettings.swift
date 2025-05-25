@@ -28,7 +28,7 @@ struct PendulumSettings {
     let attachmentColor: Material.Color = #colorLiteral(red: 0.75, green: 0.88, blue: 0.75, alpha: 1.0)
 
     /// The number of pendulums the app creates.
-    var pendulumCount: Int = 5
+    var pendulumCount: Int = 1
 
     /// The speed of the pendulum.
     ///
@@ -39,6 +39,7 @@ struct PendulumSettings {
     let pendulumSpeed: Float = 0.5
 
     /// The impulse power to apply to the pendulum, based on the simulation speed.
+    /// 負のx方向への動き
     var impulsePower: SIMD3<Float> {
         assert(pendulumSpeed > 0)
         return [-2.0 / pow(pendulumSpeed, 4), 0, 0]

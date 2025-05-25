@@ -9,6 +9,8 @@ import RealityKit
 
 extension MainView {
     /// Creates a new ball entity with only a model component, no physics components.
+    /// ボールの生成
+    /// ここではModelComponentの付与のみ。
     func makeBallEntity() -> Entity {
         let ballEntity = Entity()
         ballEntity.name = "ball"
@@ -29,6 +31,7 @@ extension MainView {
     }
 
     /// Creates a new string entity with only a model component, no physics components.
+    /// 紐生成。ボールと同じ
     func makeStringEntity() -> Entity {
         let stringEntity = Entity()
 
@@ -51,6 +54,7 @@ extension MainView {
     }
 
     /// Creates a new attachment entity with only a model component, no physics components.
+    /// 天井生成。ボールと同じ
     func makeAttachmentEntity() -> Entity {
         let attachmentEntity = Entity()
         attachmentEntity.name = "attachment"
